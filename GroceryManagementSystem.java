@@ -13,25 +13,6 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Scanner;
 
-/**
- * Grocery Management System - Java OOP conversion.
- *
- * Features:
- * - Product and Inventory management
- * - Person base class with Customer and Admin subclasses
- * - BillItem and Bill classes
- * - Checkout with stock validation and stock deduction
- * - Product search, restocking, removal and inventory valuation
- * - Sales history
- * - JSON persistence in grocery_data.json (no external libraries required)
- *
- * Compile: javac GroceryManagementSystem.java
- * Run:     java GroceryManagementSystem
- *
- * Note: The simple role selection is for a coursework/demo project, not secure
- * authentication. This is a standalone OOP conversion, so compare it with your
- * original Python file before replacing any original project-specific features.
- */
 public class GroceryManagementSystem {
     private static final String DATA_FILE = "grocery_data.json";
     private final Scanner scanner = new Scanner(System.in);
